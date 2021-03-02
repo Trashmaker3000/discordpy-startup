@@ -30,5 +30,3 @@ async def on_voice_state_update(member, before, after):
         await member.remove_roles(role)
 
 bot.run(token)
-
-bot.run(token)
