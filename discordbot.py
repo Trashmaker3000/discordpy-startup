@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def ？(ctx):
-    await ctx.send('ぽんすぽぽん')
+    await ctx.send('ぱんぱんっぱんっ')
 
 
 bot.run(token)
