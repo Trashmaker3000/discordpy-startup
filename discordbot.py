@@ -8,6 +8,6 @@ client = discord.client()
 
 @client.event
 async def on_ready():
-  print("起動しました。")
+  message.channel.send("起動しました")
   
  client.run(token)
