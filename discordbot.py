@@ -1,4 +1,4 @@
-import discord.ext import commands
+from discord.ext import commands
 import os
 import traceback
 
@@ -16,5 +16,6 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def ping(ctx):
     await ctx.send('pong')
-  
- client.run(token)
+
+
+bot.run(token)
