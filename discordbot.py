@@ -1,10 +1,9 @@
-import discord
+import discord.ext import commands
+import os
+import traceback
 
-
-with open("token.txt") as F:
-  token = F.read()
- 
-client = discord.client()
+bot = commands.Bot(command_prefix='/')
+token = os.environ['DISCORD_BOT_TOKEN']
 
 @client.event
 async def on_ready():
