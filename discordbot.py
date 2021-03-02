@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='そうだ')
+bot = commands.Bot(command_prefix='ん')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def やつ(ctx):
+async def ？(ctx):
     await ctx.send('ぽんすぽぽん')
 
 
