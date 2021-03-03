@@ -7,11 +7,11 @@ token = os.environ['DISCORD_BOT_TOKEN']
 
 @bot.event
 async def　on_voice_state_update(member,before,):
-if len(before.VoiceChannele.members) == 0:
- await guild.create_voice_channel("VC", overwrites=None, category=None, reason=None)
+if len（before.Channele.members） ＝＝ ０：
+ await ctx.send('成功')
  
 @bot.command()
 async def ping(ctx):
-    await ctx.send('今')
-    
+    await ctx.send('ロング')
+
 bot.run(token)
