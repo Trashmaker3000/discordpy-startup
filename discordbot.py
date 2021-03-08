@@ -63,6 +63,4 @@ async def on_message(message):
         for reaction in ["🐉", "🌈", "❤", "😙", "🚗", "😎", "👳‍♂️", "🥟", "🚑", "🐠", "🏉", "🍓", "😁", "💂‍♂️", "✍", "🍤", "🛹", "🐲", "💋", "🎃",]:
             await message.add_reaction(reaction)
      
-        
-        
-client.run()  
+    bot.run(token)
