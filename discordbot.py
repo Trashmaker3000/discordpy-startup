@@ -4,7 +4,8 @@ import traceback
 import datetime
 import time
 
-client = discord.Client()
+bot = commands.Bot(command_prefix='/')
+token = os.environ['DISCORD_BOT_TOKEN']
 
 
 #起動メッセージ送信
