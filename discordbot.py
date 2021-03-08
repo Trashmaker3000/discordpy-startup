@@ -4,7 +4,6 @@ import traceback
 import datetime
 import time
 
-bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
