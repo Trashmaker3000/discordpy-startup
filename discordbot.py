@@ -3,6 +3,9 @@ import os
 import traceback
 import datetime
 import time
+import asyncio
+import random
+
 
 token = os.environ['DISCORD_BOT_TOKEN']
 
