@@ -2,11 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 import datetime
-import random
 import time
-import sys
-import asyncio
-import re
 
 client = discord.Client()
 
