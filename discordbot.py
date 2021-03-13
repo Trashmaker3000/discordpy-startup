@@ -5,6 +5,11 @@ import traceback
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
+@client.event
+async def on_ready():
+    channel = client.get＿channel(819855834896531466)
+    await channel.send("起動しました")
+
 @bot.event
 async def on_command_error(ctx, error):
     orig_error = getattr(error, "original", error)
